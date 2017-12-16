@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/mainStyle.css"  media="screen,projection"/>
+    <title>materializeDemo</title>
+</head>
+<body>
+    <!-- LOADING SCREEN ANIMATION -->
+    <div class="load_screen full_screen flex_box">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+            </div><div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FULLSCREEN HEADER WITH BACKGROUND VIDEO -->
+    <header id="dorkay" class="full_screen purple scrollspy"  >
+        <video id="bannerVid" class="video_banner" loop>
+            <source src="res/header.mp4" type="video/mp4">
+        </video>
+        <!--<div class="spacer"></div>-->
+        <div class="banner_overlay full_screen">
+            <div class="navigation full_width">
+                <nav class="transparent">
+                    <div class="nav-wrapper">
+                        <a href="#dorkay" class="brand-logo">DORKAY</a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#events">EVENTS</a></li>
+                            <li><a href="#gallery">GALLERY</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#events">EVENTS</a></li>
+                            <li><a href="#gallery">GALLERY</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="flex_box_column full_screen white-text">
+                <img src="res/logo.png" alt="logo" class="logo responsive-img">
+                <a href="#about" class="start">
+                    <i class="large material-icons">expand_more</i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE SECTIONS -->
+    <div id="about" class="section full_screen transparent scrollspy">
+        <div class="full_screen flex_box_column">
+            <section class="full_width flex_2 row">
+                <div class="section_title_r col m4 full_screen flex_box">
+                    <h2> ABOUT US </h2>
+                </div>
+            </section>
+            <section class="full_width flex_3 row">
+                <div class="section_detail_l col m8 offset-m3 full_screen flex_box">
+                    <h2> Text here . . . </h2>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="events" class="section full_screen transparent scrollspy">
+        <div class="full_screen flex_box_column">
+            <section class="full_width flex_2 row">
+                <div class="section_title_l col m4 offset-m8 full_screen flex_box">
+                    <h2> EVENTS </h2>
+                </div>
+            </section>
+            <section class="full_width flex_3 row">
+                <div class="section_detail_r col m8 offset-m1 full_screen flex_box">
+                    <h2> Text here . . . </h2>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="gallery" class="section full_screen transparent scrollspy">
+        <div class="full_screen flex_box_column">
+            <section class="full_width flex_2 row">
+                <div class="section_title_r col m4 full_screen flex_box">
+                    <h2> GALLERY </h2>
+                </div>
+            </section>
+            <section class="full_width flex_3 row">
+                <div class="section_detail_l col m8 offset-m3 full_screen flex_box">
+                    <h2> Text here . . . </h2>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="contact" class="section full_screen transparent scrollspy">
+        <div class="full_screen flex_box_column">
+            <section class="full_width flex_2 row">
+                <div class="section_title_l col m4 offset-m8 full_screen flex_box">
+                    <h2> CONTACT </h2>
+                </div>
+            </section>
+            <section class="full_width flex_3 row">
+                <div class="section_detail_r col m8 offset-m1 full_screen flex_box">
+                    <h2> Text here . . . </h2>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- BACK-TO-TOP BUTTON -->
+    <a href="#dorkay"><i class="medium right material-icons">expand_less</i></a>
+    <!-- PAGE FOOTER TO CARRY EXTRA INFORMATION -->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/mainScript.js"></script>
+</body>
+</html>
